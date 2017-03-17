@@ -221,7 +221,7 @@ class TerminalViewController: UIViewController,NMSSHSessionDelegate,NMSSHChannel
             if fileData==nil {
                 self.appendToTextView("> File \(file.filename!) failed to Download\n")
             }else{
-                
+                self.appendToTextView("> File \(file.filename!) is ready to Save\n")
             }
             
         }
